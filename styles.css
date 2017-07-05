@@ -1,0 +1,239 @@
+body{
+    font-family: Geneva;
+    font-size: 17px;
+}
+body::after {
+  content: "";
+  background: url(12apstls.jpg) no-repeat;
+  background-size: 100% 100%;
+  opacity: 0.8;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  z-index: -1;   
+}
+p{
+    font-family: Georgia;
+}
+p.ender{
+    text-align:right;
+    font-weight: bold;
+    color: white;
+    display: inline;
+    vertical-align: top;
+}
+#ender{
+    float: left;
+    padding-bottom: 10px;
+    width: 65%;
+    height: 160px;
+}
+.lol{
+    text-decoration: none;
+    display: inline;
+    padding: 23px 8.2% 23px 8.2%;
+    font-weight: bold;
+    border-radius: 40px;
+    border: 2px solid #7BB5FD;
+    opacity: 0.95;
+}
+.lol_bckgr{
+    text-decoration: none;
+    display: inline;
+    padding: 23px 8.2% 23px 8.2%;
+    font-weight: bold;
+    background: #7BB5FD;
+    border-radius: 40px;
+    opacity: 0.95;
+    border: 2px solid #7BB5FD
+}
+img{
+    border: 0;
+    display: inline;
+}
+input.button{
+    height: 35px;
+    width: 100px;
+    margin-left: 25px;
+    display: inline;
+}
+
+a{
+	text-decoration: none;
+    color: black;
+}
+a:visited{
+    color: black;
+}
+.hed{
+    width: 50%;
+    display: inline;
+    margin-left: 300px;
+    height: 160px;
+    right: auto;
+    left: auto;
+}
+.heyo{
+    display: inline;
+}
+.logino{
+    display: inline;
+    font-weight: bold;
+    background: white;
+    padding: 8px;
+    opacity: 0.8;
+    border-radius: 20px;
+}
+#form1 {
+    position: absolute;
+    right: 10px;
+    top: 4px;
+    width: 150px;
+    border: 1px solid #7BB5FD;
+}
+.dva{
+    margin-left: 32%;
+}
+#zara{
+    margin-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#clim1{
+    width: 165px;
+    float: right;
+}
+#clim2{
+    width: 600px;
+    float: left;
+}
+#forth{
+    position: absolute;
+    right: 70px;
+    display: inline;
+    width: 91px;
+    height: 86px;
+}
+#back{
+    position: absolute;
+    left: 70px;
+    display: inline;
+    width: 91px;
+    height: 86px;
+}
+.article{
+    background: white;
+    opacity: 0.8;
+    border-radius: 20px;
+    border: 5px solid;
+    border-color: #7BB5FD;
+    padding: 8px;
+    margin: 120px 45px 35px 45px;
+    font-family: Verdana;
+    font-weight: bold;
+}
+h3, h1{
+    font-weight: bold;
+    text-align: center;
+}
+#hist1{
+   height: 600px;
+   float: right;
+}
+#histgif{
+    float: left;
+    height: 220px;
+    padding-right: 5px
+}
+.exk{
+    width: 1024px;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+}
+#m, #s, #a{
+    text-align: center;
+}
+.sydn1{
+    height: 400px;
+}
+#arh1{
+    height: 550px;
+    float: left;
+}
+#arh3{
+    width: 400px;
+}
+li{
+    text-align: left
+}
+#Image-Maps-Com-image-maps-2014-09-22-140444{
+    display: block;
+    margin: 0 auto;
+}
+h5, h6{
+  text-align: center;
+}
+#comment-div{
+    height: 300px;
+    width: 80%;
+    margin: 30px auto 40px auto;
+    border-radius: 20px;
+}
+#comments{
+    height: 270px;
+    overflow: auto;
+    border: 1px solid black;
+    padding: 2px;
+}
+#sas-comments{
+    height: 300px;
+    width: 80%;
+    overflow: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2px;
+    border: 1px solid black;
+}
+#tablet{
+    width: 100%;
+}
+#sas-new-comments{
+    height: 270px;
+    width: 80%;
+    overflow: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+}
+
+.messagebox{
+    position: absolute;
+    width: 100px;
+    margin-left: 30px;
+    border: 1px solid #c93;
+    background: #ffc;
+    padding: 3px;
+}
+.messageboxok{
+    position: absolute;
+    width: auto;
+    margin-left: 30px;
+    border: 1px solid #349534;
+    background: #C9FFCA;
+    padding: 3px;
+    font-weight: bold;
+    color: #008000;
+}
+.messageboxerror{
+    position: absolute;
+    width: auto;
+    margin-left: 30px;
+    border: 1px solid #CC0000;
+    background: #F7CBCA;
+    padding: 3px;
+    font-weight: bold;
+    color: #CC0000;
+}
